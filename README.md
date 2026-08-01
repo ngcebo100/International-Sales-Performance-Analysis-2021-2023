@@ -60,6 +60,12 @@ The dataset (`Excel Data Set/International Sales Performance Analysis (2021–20
 
 A snapshot of the raw dataset showing individual order records. Each row represents a single order, capturing where it was sold (region, country, channel), what was sold (item type, units, pricing), and the resulting financial outcome (revenue, cost, profit). This transaction-level granularity is what powers the regional, yearly, and category-level breakdowns in the dashboard.
 
+## Power BI Template
+
+The full interactive dashboard is available as a Power BI template file: [`International_Sales_Performance_Analysis_2021-2023.pbit`](Excel%20Data%20Set/International_Sales_Performance_Analysis_2021-2023.pbit)
+
+This template contains the pre-built report — all visuals, measures, and layout shown in the preview above — ready to open directly in Power BI Desktop. On open, Power BI will prompt you to point it at the source Excel file (`Excel Data Set/International Sales Performance Analysis (2021–2023).xlsx`) so it can load the data and refresh the visuals.
+
 ## Setup
 
 1. Clone this repository (it's private, so make sure you're authenticated with GitHub):
@@ -67,13 +73,13 @@ A snapshot of the raw dataset showing individual order records. Each row represe
    git clone https://github.com/ngcebo100/International-Sales-Performance-Analysis-2021-2023-.git
    ```
 2. Open **Power BI Desktop** (download it [here](https://powerbi.microsoft.com/desktop/) if you don't have it).
-3. In Power BI, go to **Get Data → Excel** and select `Excel Data Set/International Sales Performance Analysis (2021–2023).xlsx` from the cloned repo.
-4. Build or recreate the visuals using the fields described in the [Data](#data) section above, or reference the images in the `Images/` folder for layout guidance.
+3. Open `Excel Data Set/International_Sales_Performance_Analysis_2021-2023.pbit` from the cloned repo — Power BI will prompt you to select the data source; point it to `Excel Data Set/International Sales Performance Analysis (2021–2023).xlsx` in the same folder.
+4. Power BI will load the data and render the dashboard automatically. From here you can explore the visuals as-is or customize them further.
 
 ## How to Use
 
 - Open the workbook in Excel to explore or filter the raw data directly.
-- Load the data into Power BI Desktop to interact with the dashboard — filter by region, country, year, or item type to drill into specific segments.
+- Open the `.pbit` template in Power BI Desktop to load the pre-built dashboard and interact with it — filter by region, country, year, or item type to drill into specific segments.
 - Use the visuals to compare revenue and profit trends across years and quarters, or identify top/bottom performing countries and product categories.
 
 ## Preview
