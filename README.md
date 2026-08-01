@@ -1,0 +1,2 @@
+# International-Sales-Performance-Analysis-2021-2023-
+A Power BI dashboard analyzing ~1,700 global sales orders from 2021–2023, tracking revenue, cost, and profit by region, country, product category, and quarter. It track sales by region/country, which product categories cost the most to sell, and how revenue and demand shift by quarter and guiding pricing, inventory, and market-expansion decisions.
