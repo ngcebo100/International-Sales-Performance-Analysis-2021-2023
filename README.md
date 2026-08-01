@@ -1,7 +1,3 @@
-# International-Sales-Performance-Analysis-2021-2023-
-A Power BI dashboard analyzing ~1,700 global sales orders from 2021–2023, tracking revenue, cost, and profit by region, country, product category, and quarter. It track sales by region/country, which product categories cost the most to sell, and how revenue and demand shift by quarter and guiding pricing, inventory, and market-expansion decisions.
-[README.md](https://github.com/user-attachments/files/30621503/README.md)
-
 # Global Sales & Revenue Dashboard (2021–2023) 📊
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
@@ -62,7 +58,7 @@ The dataset (`Shipment_Report_2021_to_2023.xlsx`) contains order-level records w
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<ngcebo100>/<International-Sales-Performance-Analysis-2021-2023>.git
+   git clone https://github.com/<your-username>/<your-repo-name>.git
    ```
 2. Open **Power BI Desktop** (download it [here](https://powerbi.microsoft.com/desktop/) if you don't have it).
 3. In Power BI, go to **Get Data → Excel** and select `Shipment_Report_2021_to_2023.xlsx` from the cloned repo.
