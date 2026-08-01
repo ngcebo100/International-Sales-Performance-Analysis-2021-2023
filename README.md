@@ -69,7 +69,3 @@ The dataset (`Shipment_Report_2021_to_2023.xlsx`) contains order-level records w
 - Open the workbook in Excel to explore or filter the raw data directly.
 - Load the data into Power BI Desktop to interact with the dashboard — filter by region, country, year, or item type to drill into specific segments.
 - Use the visuals to compare revenue and profit trends across years and quarters, or identify top/bottom performing countries and product categories.
-
-## Preview
-
-See `Shipment_Report_2021_to_2023.png` in this repo for a full snapshot of the dashboard.
