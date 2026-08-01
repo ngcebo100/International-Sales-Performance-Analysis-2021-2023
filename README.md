@@ -1,4 +1,4 @@
-# Global Sales & Revenue Dashboard (2021–2023) 📊
+# International Sales Performance Analysis (2021–2023) 📊
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
@@ -6,7 +6,7 @@
 
 An interactive Power BI dashboard analyzing global sales and revenue data from 2021 to 2023, built from a dataset of ~1,700 order records spanning multiple regions, countries, and product categories.
 
-![Dashboard Preview](Shipment_Report_2021_to_2023.png)
+![Dashboard Preview](Images/Shipment%20Report%202021%20to%202023.png)
 
 ## Overview
 
@@ -36,7 +36,7 @@ This dashboard transforms raw order transaction data — order ID, region, count
 
 ## Data
 
-The dataset (`Shipment_Report_2021_to_2023.xlsx`) contains order-level records with the following fields:
+The dataset (`Excel Data Set/International Sales Performance Analysis (2021–2023).xlsx`) contains order-level records with the following fields:
 
 | Column | Description |
 |---|---|
@@ -54,15 +54,21 @@ The dataset (`Shipment_Report_2021_to_2023.xlsx`) contains order-level records w
 | Total Cost | Units Sold × Unit Cost |
 | Total Profit | Total Revenue − Total Cost |
 
+### Sample Data
+
+![Sample Data](Images/International%20Sales%20Records.png)
+
+A snapshot of the raw dataset showing individual order records. Each row represents a single order, capturing where it was sold (region, country, channel), what was sold (item type, units, pricing), and the resulting financial outcome (revenue, cost, profit). This transaction-level granularity is what powers the regional, yearly, and category-level breakdowns in the dashboard.
+
 ## Setup
 
-1. Clone this repository:
+1. Clone this repository (it's private, so make sure you're authenticated with GitHub):
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/ngcebo100/International-Sales-Performance-Analysis-2021-2023-.git
    ```
 2. Open **Power BI Desktop** (download it [here](https://powerbi.microsoft.com/desktop/) if you don't have it).
-3. In Power BI, go to **Get Data → Excel** and select `Shipment_Report_2021_to_2023.xlsx` from the cloned repo.
-4. Build or recreate the visuals using the fields described in the [Data](#data) section above, or reference the preview image for layout guidance.
+3. In Power BI, go to **Get Data → Excel** and select `Excel Data Set/International Sales Performance Analysis (2021–2023).xlsx` from the cloned repo.
+4. Build or recreate the visuals using the fields described in the [Data](#data) section above, or reference the images in the `Images/` folder for layout guidance.
 
 ## How to Use
 
@@ -72,4 +78,4 @@ The dataset (`Shipment_Report_2021_to_2023.xlsx`) contains order-level records w
 
 ## Preview
 
-See `Shipment_Report_2021_to_2023.png` in this repo for a full snapshot of the dashboard.
+See `Images/Shipment Report 2021 to 2023.png` in this repo for a full snapshot of the dashboard.
